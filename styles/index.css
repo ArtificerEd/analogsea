@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #298EEA;
+  font-family: 'Roboto', helvetica, sans-serif;
+  padding: 0;
+  padding-top: 40px;
+  margin: 0;
+}
+
+.logo {
+  display: block;
+  height: 75px;
+  width: auto;
+  margin: 0 auto 40px;
+}
+
+.signup {
+  background: white;
+  font-size: 18px;
+  width: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.signup legend {
+  text-align: center;
+  font-weight: 300;
+  color: #565656;
+  margin: 0 auto 40px;
+  font-size: 35px;
+}
+
+input, button {
+  display: block;
+  font-size: 18px;
+  text-align: left;
+  background: #FCFCFC;
+  border: 2px solid #E7E7E7;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 20px auto;
+  height: auto;
+  width: 100%;
+  transition: opacity 0.4s;
+}
+
+input:focus {
+  border-color: #E7E7E7;
+  box-shadow: none;
+}
+
+button {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  background: #15CD72;
+  border: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0CB863;
+  transition: background 0.1s;
+}
+
+.signup p {
+  font-size: 16px;
+  text-align: center;
+  color: #999999;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #999999;
+  border-bottom: 1px solid #999999;
+}
+
+.login {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  border: 0;
+  padding: 0;
+  margin: 20px auto;
+}
+
+.login a {
+  color: white;
+}

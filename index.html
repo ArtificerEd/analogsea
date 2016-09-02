@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AnalogSea</title>
+
+    <!-- Viewport tag for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font: Google API -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles/index.css">
+
+    <!-- SEO -->
+    <meta name="description" content="Welcome to AnalogSea!  Please log in or create a personal account.">
+    <meta name="keywords" content="HTML, CSS, login, AnalogSea, welcome, email, password, sign up, logo, Thinkful">
+    <meta name="author" content="Edward White">
+
+  </head>
+
+  <body>
+
+    <img class="logo" src="images/analogsea-logo.png" alt="Welcome to AnalogSea" />
+
+    <form class="signup" action="/signup/" accept-charset="UTF-8" method="post">
+      <legend>Sign up</legend>
+
+      <label for="email" required>Email</label>
+      <input placeholder="foo@bar.com" type="email" name="email" id="email" required/>
+
+      <label for="password" required>Password</label>
+      <input placeholder="1234passw0rd" type="password" name="password" id="password" required/>
+
+      <button type="submit">Sign up</button>
+
+      <p><a href="/forgot_password/new">Forgot password?</a></p>      
+    </form>
+
+    <div class="login">
+      <p>Already have an account? <a href="/login">Log In</a></p>
+    </div>
+  </body>
+</html>
